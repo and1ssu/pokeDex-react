@@ -13,7 +13,7 @@ export function PokeDex(): JSX.Element {
   const classes = useStyles();
 
   const { getPokemons, pokemons } = usePoke();
-  console.log('poks', pokemons);
+  console.log(pokemons);
   const [search, setSearch] = useState('');
 
   useEffect(() => {
