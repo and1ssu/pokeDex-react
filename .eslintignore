@@ -1,0 +1,10 @@
+/*.js
+node_modules
+dist
+
+*.svg
+*.png
+*.otf
+*.graphql
+*.gql
+pre-commit.js
